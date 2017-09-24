@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from 'react';
 import {Card, CardActions, CardHeader, CardText} from 'material-ui/Card';
 import FlatButton from 'material-ui/FlatButton';
@@ -28,24 +29,7 @@ const Footer = () => (
         </span>
       <a className="grey-text text-lighten-4 right" href="#!">More Links</a>
       </div>
-     <div className="chang-lang">
-        <div className="fixed-action-btn click-to-toggle z-depth-1">
-      <a className="btn-floating  white card">
-        <div className="card left black-text">
-          <div className="card-content">
-          <i className="material-icons black-text right">menu</i><span className="right">Script</span>
-  </div>
-    </div>
-      </a>
-      <ul className="white black-text z-depth-1">
 
-  <li>Balochi</li>
-  <li>UniBal</li>
-      </ul>
-
-    </div>
-
-  </div>
 
 
           <div className="rows">

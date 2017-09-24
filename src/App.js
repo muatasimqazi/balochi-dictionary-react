@@ -1,6 +1,4 @@
 import React, {Component} from 'react';
-
-
 import RaisedButton from 'material-ui/RaisedButton';
 import Dialog from 'material-ui/Dialog';
 import {lightBlue900, indigo700, redA200} from 'material-ui/styles/colors';
@@ -111,47 +109,16 @@ class App extends Component {
 
         <div>
 
-
         <AppBarTop />
-
-        <MaterialUIAutocomplete/>
-
-
-       <div style={styles.bottomMarg}><SearchBox/></div>
-
 
         <Divider />
 
-
+<div style={styles.bottomMarg}><SearchBox/></div>
                 <Row>
                 <Col l={3} m={4} s={12} className='grid-example offset-l1' style={{bottom: '450px', right: '24px'}}>  <div style={styles.bottomMarg}>< WordDay /></div></Col>
-
                     <Col l={7} m={8} s={12} className='grid-example'>  <Welcome /></Col>
-
                 </Row>
-
                 <Divider />
-
-
-          <div style={styles.container}>
-          <Dialog
-            open={this.state.open}
-            title="Super Secret Password"
-            actions={standardActions}
-            onRequestClose={this.handleRequestClose}
-          >
-            1-2-3-4-5
-          </Dialog>
-          <h1>Material-UI</h1>
-          <h2>example project</h2>
-          <RaisedButton
-            label="Super Secret Password"
-            secondary={true}
-            onTouchTap={this.handleTouchTap}
-          />
-
-          </div>
-
   <Footer />
         </div>
       </MuiThemeProvider>
